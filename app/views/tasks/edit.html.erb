@@ -1,0 +1,16 @@
+<h4>This is to display the edit form</h4>
+
+
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :details%>
+  <%= f.text_field :details %>
+
+
+  <%= f.submit %>
+<% end %>
+
+
